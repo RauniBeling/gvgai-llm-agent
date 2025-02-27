@@ -1,0 +1,12 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Treinar Agente",
+            "type": "python",
+            "request": "launch",
+            "program": "src/agent/a2c_agent.py",
+            "args": ["--timesteps", "10000"]
+        }
+    ]
+}
